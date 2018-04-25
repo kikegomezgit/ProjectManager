@@ -1,5 +1,5 @@
 <?php
-
+ $db = parse_url(env('JAWSDB_URL'));
 return [
 
     /*
@@ -30,7 +30,7 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-    $db = parse_url(env('JAWSDB_URL'));
+   
 
     'connections' => [
 
