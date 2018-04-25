@@ -120,9 +120,9 @@
                                 <div class="col-md-8">
                                 <select class="form-control m-b" id="status" name="status">                            
                                   <option value="activo" >activo</option>
-                                  <option value="activo" >pendiente</option>
-                                  <option value="activo" >cancelado</option>
-                                  <option value="activo" >finalizado</option>
+                                  <option value="pendiente" >pendiente</option>
+                                  <option value="cancelado" >cancelado</option>
+                                  <option value="finalizado" >finalizado</option>
                               </select>
                               </div>
                         </div>
