@@ -134,6 +134,8 @@ DB::table('proyectos')->insert(
     'descripcion' => $request->input('descripcion'),
     'costo' => $request->input('costo'),
     'status' => $request->input('status'),
+    'updated_at' => \Carbon\Carbon::now(),
+    'created_at' => \Carbon\Carbon::now(),
     'empresa' => $request->input('empresa')]
 );
 return redirect('/proyectos');      
