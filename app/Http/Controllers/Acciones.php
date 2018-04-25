@@ -94,6 +94,8 @@ public function create(Request $request)
 DB::table('clientes')->insert(
     ['nombre' => $request->input('nombre'), 
     'apellidos' => $request->input('apellidos'),
+    'updated_at' => \Carbon\Carbon::now(),
+    'created_at' => \Carbon\Carbon::now(),
     'empresa' => $request->input('empresa')]
 );
 return redirect('/personas');      
